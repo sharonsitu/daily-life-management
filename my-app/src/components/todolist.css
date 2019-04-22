@@ -1,0 +1,119 @@
+.todolist-container {
+    display: block;
+    margin-top:0px;
+    overflow:hidden;
+}
+
+.todolist-title {
+    display: block;
+    margin-left: 3%;
+    height: 45px;
+    width: 300px;
+    background-color:#d6acd1;
+    border-radius: 10px;
+}
+.todolist-title div , .todolist-title button{
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+    font-size: 28px;
+    color:white;
+    font-weight: bold;
+}
+
+.todolist-title button {
+    background-color: transparent;
+    border: None;
+    float: right;
+    margin-right: 20px;
+}
+
+.search-box {
+    width: 100%;
+    font-size: 28px;
+    margin-top:10px;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.search-box form {
+    float: left;
+    width:50%;
+}
+
+.search-box form input {
+    height: 38px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.react-time-picker {
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 38px;
+}
+
+.react-time-picker__wrapper {
+    border-color: #bdb0b0;
+}
+
+.react-time-picker input, .react-time-picker span, .react-time-picker select {
+    color: rgb(88, 85, 85);
+}
+
+.react-time-picker__clock-button {
+    display: none;
+}
+
+.react-time-picker__clock {
+    display: none;
+}
+
+.select-category {
+    float:left;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 38px;
+    width: 180px;
+    font-size: 20px;
+}
+
+.addplan-button {
+    float:left;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 38px;
+    background-color: rgb(148, 196, 224);
+    color: white;
+    border-radius: 1px;
+    font-size: 20px;
+}
+
+.react-bs-table-container{
+    display:block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.react-bs-table-tool-bar button {
+    font-size: 20px;
+    height: 38px;
+    border-radius: 1px;
+    color: white;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.react-bs-table{
+    text-align: center !important;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.react-bs-table table {
+    width: 100%;
+}

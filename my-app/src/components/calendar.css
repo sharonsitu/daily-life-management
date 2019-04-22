@@ -1,0 +1,78 @@
+.calendar-container {
+    position: relative;
+    margin:0 auto;
+    overflow:hidden;
+    display:block;
+}
+
+.calendar-box {
+    float: left;
+    width: 50%;
+}
+
+.timer-box {
+    float: right;
+    width: 50%;
+}
+
+.react-calendar{
+    justify-content: center;
+    border: None;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    width: unset;
+    margin-top: 15px;
+}
+
+.react-calendar__tile--active {
+    background-color:#d6acd1 !important;
+}
+
+.react-calendar__navigation button{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.react-calendar__tile {
+    font-size:15px;
+    color: gray;
+    border-radius: 32%;
+}
+
+.react-calendar__month-view__weekdays{
+    color: rgba(63, 56, 56, 0.904);
+    font-size: 15px;
+}
+
+.timer {
+    margin-top: 12.5%;
+}
+
+.timer p {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(63, 56, 56, 0.904);
+}
+
+.timer time {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(63, 56, 56, 0.904);
+}
+
+.time-motto {
+    font-style: italic;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color:rgb(99, 96, 96);
+}
+
+.time-motto-author {
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    color:rgb(99, 96, 96);
+}
