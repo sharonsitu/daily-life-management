@@ -9,7 +9,6 @@ class CompletedList extends Component {
           InvalidIDs : [],
           ErrorMsg: "",
           showGraph: false,
-          TotalCompleted: 0,
           pie_labels: ["study/work","sports","shopping","indoor activities","undefined"],
           CompletedIDList: [],
           CompletedCategories: [{
@@ -33,7 +32,8 @@ class CompletedList extends Component {
                 var id = parseInt(idlist[i])
                 if (this.props.PlanIDList.includes(id)) {
                     tmp1.push(id)
-                    var category = this.props.TodoList[i]['category']
+                    var index = this.props.PlanIDList.indexOf(id);
+                    var category = this.props.TodoList[index]['category']
                     if (category === "study/work") {
                         tmp[0] += 1
                     } else if (category === "sports") {
@@ -102,7 +102,7 @@ class CompletedList extends Component {
             <div className="completedlist-container">
                 <div className="completedlist-title">
                     <div>Examine the Results</div>
-                    <button>+</button>
+                    <i className="fas fa-chart-pie"></i>
                 </div>
                 {completedlist}
                 {piechart}

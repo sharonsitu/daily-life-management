@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MyCalendar from './components/MyCalendar';
 import TodoList from './components/TodoList';
 import CompletedList from './components/CompletedList';
+import DailyStory from './components/DailyStory';
 import './App.css';
 
 class App extends Component {
@@ -53,12 +54,9 @@ class App extends Component {
           <MyCalendar/>
           <TodoList TodoList={this.state.TodoList} handleAddPlan={this.handleAddPlan} deleteplans={this.deleteplans}/>
           <CompletedList TodoList={this.state.TodoList} PlanIDList={this.state.PlanIDList}/>
+          <DailyStory/>
         </div> 
         </body>
-        <footer className="App-footer">
-          <p>Personal Side Project</p>
-          <p>Email: sharonstxl@gmail.com</p>
-        </footer>
       </div>
     );
   }

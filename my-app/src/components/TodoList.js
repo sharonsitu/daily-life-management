@@ -64,16 +64,6 @@ class TodoList extends Component {
     }
   
     render() {
-        let columns = [{
-            dataField: 'plan',
-            text: 'Plan'
-          },{
-            dataField: 'time',
-            text: 'Time',
-            sort: true
-          }]
-        
-
         let selectRowProp = {
             mode: 'checkbox'
         };
@@ -114,7 +104,7 @@ class TodoList extends Component {
             <div className="todolist-container">
                 <div className="todolist-title">
                     <div>Make a Plan</div>
-                    <button>+</button>
+                    <i className="fas fa-tasks"></i>
                 </div>
                 {todolist_table}
             </div>
