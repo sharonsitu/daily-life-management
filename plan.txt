@@ -1,0 +1,6 @@
+1. add a menu header, click items can scroll down to the section
+2. add events, click that date, pop up the events
+3. analyst daily work
+4. write story for that day
+5. story can change color
+6. more UI changes
