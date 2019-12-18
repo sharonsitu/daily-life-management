@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.8.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "nan": "^2.14.0",
+    "node-pre-gyp": "^0.14.0"
   }
 }
